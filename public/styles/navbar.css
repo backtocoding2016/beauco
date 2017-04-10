@@ -1,0 +1,20 @@
+.navbar-bottom-nav {
+	height: 50px;
+}
+
+.navbar-button-panel {
+	padding-top: 5px;
+}
+
+.navbar-button-container {
+	text-align: center;
+}
+
+.navbar-button-container:hover {
+	cursor: pointer;
+}
+
+.navbar-button-panel-divider {
+	padding-left: 14px;
+	border-right: 1px solid #ccc;
+}
