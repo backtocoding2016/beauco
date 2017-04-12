@@ -1,7 +1,7 @@
 (function () {
 
   'use strict';
-  var app = angular.module('imbeau', ['ui.router', 'ui.bootstrap', 'ui.bootstrap.tpls', 'ui.bootstrap.modal', 'ngCookies']);
+  var app = angular.module('imbeau', ['ui.router', 'ui.bootstrap', 'ui.bootstrap.tpls', 'ui.bootstrap.modal', 'ngAnimate', 'ngCookies']);
 
   app.config(['$stateProvider', '$urlRouterProvider', '$httpProvider', configRoutes]);
 
