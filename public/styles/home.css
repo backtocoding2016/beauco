@@ -1,6 +1,56 @@
-.home-login-panel {
+.home-container {
 	text-align: center;
 }
 .home-imbeau-logo-container {
 	text-align: center;
+	padding: 60px;
+}
+.home-login-button {
+	background-color: inherit;
+	width: 150px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+	margin-bottom: 10px;
+}
+.home-carousel-container {
+	margin: auto;
+	width: 60%;
+	padding-bottom: 50px;
+}
+
+.home-carousel-card {
+	text-align: center;
+	height: 150px;
+}
+
+.home-carousel-img-container {
+	height: 100px;
+}
+
+.home-carousel-welcome-text {
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+
+.home-carousel-img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.home-carousel-img-last {
+	padding: 10px;
+	max-width: 80%;
+	max-height: 80%;
+}
+
+.home-carousel-title {
+	text-align: center;
+	color: white;
+	height: 20px;
+}
+
+#home-carousel-img-card-2 {
+	float: right;
 }

@@ -1,3 +1,19 @@
+body {
+	background-color: #32CD32;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+.carousel-indicators {
+  bottom:-20px;
+}
+
 .col-xs-5ths {
 	position: relative;
 	min-height: 1px;
