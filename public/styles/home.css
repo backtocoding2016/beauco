@@ -3,7 +3,7 @@
 }
 .home-imbeau-logo-container {
 	text-align: center;
-	padding: 40px;
+	padding: 30px;
 }
 .home-login-button {
 	background-color: inherit;
@@ -15,8 +15,8 @@
 }
 .home-carousel-container {
 	margin: auto;
-	width: 60%;
-	padding-bottom: 50px;
+	width: 75%;
+	padding-bottom: 30px;
 }
 
 .home-carousel-card {
