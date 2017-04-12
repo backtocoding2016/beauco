@@ -10,5 +10,9 @@
 
 		$scope.slides = [1, 2, 3, 4];
 
+		$scope.carouselScreen = true;
+		$scope.loginScreen = false;
+		$scope.signUpScreen = false;
+
 	}]);
 }());

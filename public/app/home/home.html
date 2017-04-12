@@ -2,7 +2,7 @@
 	<div class="home-imbeau-logo-container">
 		<img src="img/imbeau-logo.png">
 	</div>
-	<div class="row">
+	<div class="row" ng-show="carouselScreen">
 		<div class="home-carousel-container">
 			<div uib-carousel active="0">
 	            <div uib-slide active="active" index="0">
@@ -52,17 +52,22 @@
 	            </div>
             </div>
 		</div>
-		
+		<div class="row">
+			<button class="btn btn-default home-login-button" ng-click="loginScreen=true; carouselScreen=false; signUpScreen=false;">
+				<div class="home-login-text">Login</div>
+			</button>
+		</div>
+		<div class="row">
+			<button class="btn btn-default home-login-button" ng-click="loginScreen=false; carouselScreen=false; signUpScreen=true;">
+				<div class="home-login-text">Signup</div>
+			</button>
+		</div>
 	</div>
-	<div class="row">
-		<button class="btn btn-default home-login-button">
-			<div class="home-login-text">Login</div>
-		</button>
+	<div ng-show="loginScreen">
+		Login
 	</div>
-	<div class="row">
-		<button class="btn btn-default home-login-button">
-			<div class="home-login-text">Signup</div>
-		</button>
+	<div ng-show="signUpScreen">
+		Sign Up
 	</div>
 </div>
 
